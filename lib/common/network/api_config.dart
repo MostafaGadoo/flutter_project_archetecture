@@ -6,7 +6,7 @@ class ApiConfig {
   //Testing Url
 
 
-  static const String baseUrl = "http://144.126.200.46";
+  static const String baseUrl = "Test";
 
 
   static const Duration receiveTimeout = Duration(milliseconds: 150000);
