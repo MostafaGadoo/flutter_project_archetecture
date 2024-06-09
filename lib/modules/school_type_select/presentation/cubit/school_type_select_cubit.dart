@@ -3,8 +3,6 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 
 import '../../../../../common/cubit/generic_cubit.dart';
-import '../../../../../core/utils/constants.dart';
-import '../../../../../core/utils/local_storage.dart';
 
 
 import '../../data/models/school_type_select_model.dart';

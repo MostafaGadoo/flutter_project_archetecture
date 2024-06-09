@@ -11,9 +11,7 @@ abstract class SchoolTypeSelectRemoteDataSource {
   Future<SchoolTypeSelectModel> doSchoolTypeSelect(
       {required GetSchoolTypeSelectParams schoolTypeSelectParams});
 }
-class SchoolTypeSelectRemoteDataSourceImpl
-    with ApiHelper<SchoolTypeSelectModel>
-    implements SchoolTypeSelectRemoteDataSource {
+class SchoolTypeSelectRemoteDataSourceImpl with ApiHelper<SchoolTypeSelectModel> implements SchoolTypeSelectRemoteDataSource {
   final DioClient dioClient = getIt<DioClient>();
 
   @override
